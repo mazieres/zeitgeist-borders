@@ -1,0 +1,72 @@
+body {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+div.container {
+  width:98%;
+  margin:1%;
+}
+
+#tablecont {
+  margin-left:auto;
+  margin-right:auto;
+  width:1px;
+}
+
+#suggestionsCell {
+    margin-top: 0px;
+    height: 430px;
+    width: 200px;
+    overflow: auto;
+}
+
+.land {
+    fill: #CCCCCC;
+    fill-opacity: 0.7;
+    stroke:white;
+    stroke-opacity: 1;
+    stroke-width:0.5;
+}
+
+.langName {
+    display: inline;
+    font-size: 10px;
+}
+
+.suggestionLine:hover {
+    background-color: #99ccff !important;
+}
+
+.tooltip-inner {
+  background-color: rgba(255, 64, 129, 0.75);
+}
+
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: rgba(255, 64, 129, 0.75);
+}
+
+.tooltip.top .tooltip-arrow {
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: rgba(255, 64, 129, 0.75);
+}
+
+.glyphicon.glyphicon-search {
+    font-size: 30px;
+}
+
+.glyphicon.glyphicon-random {
+    font-size: 30px;
+}
+
+
+/*#mycircle {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: #ff33cc;
+}*/
